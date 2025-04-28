@@ -4,9 +4,27 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
 </head>
 <body>
-    <section class="contact-form">
+    <div class="logo">
+        <span>
+            <img width="100px" src="images/logo.png" alt="Store Logo" style="border: white; box-shadow: none;">
+        </span>
+        <span>
+            <h1 style="color: #a67c52;">PHI</h1>
+        </span>
+        <div class="navigation-bar">
+            <button class="button">Sign</button>
+            <a href="#" class="fav"><span><img src="./images/fav.png" width="50" style="border: white; box-shadow: none;"></span></a>
+            <a href="#" class="navigation-item"><span><img src="./images/cart.png" width="50" style="border: white; box-shadow: none;"></span></a>
+            <a href="./aboutUs.html" class="navigation-item"><span>About PHI</span></a>
+            <a href="./contactUs.html" class="navigation-item"><span>Contact us</span></a>
+            <a href="./index.html" class="navigation-item"><span>Home</span></a>
+        </div>
+    </div>
+
+    <div class="contact-form" >
         <h2>Contact Us</h2>
         <form>
             <input type="text" placeholder="Your Name" required>
@@ -14,7 +32,7 @@
             <textarea placeholder="Your Message" required></textarea>
             <button class="button" type="submit">Send</button>
         </form>
-    </section>
+    </div>
 
 </body>
 </html>
