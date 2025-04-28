@@ -1,0 +1,49 @@
+.cal-sans-regular {
+    font-family: "Cal Sans", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+
+.bodey
+{ 
+    margin: 0px ;
+}
+.logo
+{ 
+    background-color :whitesmoke;
+    border: 4px #0000 solid ;
+ justify-content: space-between ;
+    display: flex;
+ align-items: center ;
+}
+.links a
+{ 
+    padding: 5px 30px ;
+ color: black   ;
+border-radius: 20px ;
+ text-decoration: none ;
+ 
+}
+.links a:hover 
+{ 
+    
+    background-color: white;
+}
+.button 
+{ 
+    background-color:#d5aa60ad ;
+    color: white ;
+    border: none ;
+    border-radius: 20px ;
+    padding: 8px 18px ;
+}
+.button:hover 
+{  
+    background-color: #a58a5cad  ;
+
+}
+
+
+
+
